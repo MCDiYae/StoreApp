@@ -37,4 +37,4 @@ class RatingModel {
   factory RatingModel.fromJson(jsonData) {
     return RatingModel(rate: jsonData['rate'], count: jsonData['count']);
   }
-}
+} 
